@@ -1,0 +1,35 @@
+public class DataSet{
+  private int numExemplos;
+  private int numAtributos;
+  private int numClasses;
+  private String nome;
+
+  public DataSet (int nExemplos, int nAtributos, int nClasses,String nome){
+    numExemplos = nExemplos;
+    numAtributos = nAtributos;
+    numClasses = nClasses;
+    this.nome = nome;
+  }
+
+  public int getNumExemplos(){
+    return numExemplos;
+  }
+  public int getNumClasses(){
+    return numClasses;
+  }
+  public int getNumAtributos(){
+    return numAtributos;
+  }
+  public String getNome(){
+    return nome;
+  }
+
+
+
+  
+
+
+
+
+
+}

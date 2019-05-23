@@ -1,0 +1,9 @@
+public class Experimento{
+  private int dia;
+  private int mes;
+  private int ano
+  private Resultado resultados[10]
+
+  public Exeperimenta
+
+}

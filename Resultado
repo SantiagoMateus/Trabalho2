@@ -1,0 +1,35 @@
+public class Restulado{
+  private Algoritmo algoritmo;
+  private Dataset dataset;
+  private ValorAvaliacao[] avaliacao[3];
+  
+  Resultado(Algoritmo algoritmo, Dataset dataset){
+    this.algoritmo =algoritmo;
+    this.dataset = dataset;
+  }
+
+
+  public Algoritmo getAlgoritmo(){
+    return this.algoritmo;
+  }
+
+  public Dataset getDataset(){
+    return this.dataset;
+  }
+
+  public String getNomeDoDataset(){
+
+    return this.algoritmo.getNome();
+
+  }
+
+
+
+
+
+
+
+
+
+
+}

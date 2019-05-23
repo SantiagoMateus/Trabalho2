@@ -1,0 +1,18 @@
+public class Algoritmo{
+  private String nome;
+  private float parametros [] = new float[3];
+
+  public String getNome(){
+    return nome;
+  }
+  public float getParametros()){
+    return parametros[3];
+  }
+
+  public Algoritmo(String nome, float parametros[]){
+    this.nome = nome;
+    this.parametros[] = parametros[]; 
+  }
+
+
+}
